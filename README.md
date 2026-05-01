@@ -20,7 +20,6 @@ cd FYP
 
 ### 2. Backend Setup
 ```bash
-cd DarrenRaj_20491070_Software
 cd backend
 python -m venv venv
 venv\Scripts\activate  # Windows
@@ -43,11 +42,11 @@ python main.py
 If `.env` doesn't load (rare case), set the API key manually:
 ```bash
 # Windows PowerShell:
-$env:GROQ_API_KEY="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"
+$env:GROQ_API_KEY="ur own api key"
 python main.py
 
 # Mac/Linux:
-export GROQ_API_KEY="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"
+export GROQ_API_KEY="ur own api key"
 python main.py
 ```
 → API starts at **http://localhost:8000**  
@@ -55,7 +54,6 @@ python main.py
 
 ### 3. Frontend Setup
 ```bash
-cd DarrenRaj_20491070_Software
 cd frontend
 npm install
 npm run dev
@@ -182,9 +180,5 @@ python test_three_layer.py
 
 ---
 
-## Contact
-
-**Student:** Darren Raj
-**Student ID:** 20491070
 ## License 
 This project is developed for academic purposes.
