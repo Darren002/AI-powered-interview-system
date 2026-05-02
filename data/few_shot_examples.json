@@ -1,0 +1,476 @@
+{
+  "communication": {
+    "skill": "Communication",
+    "example_answer": "In Q3 2023 at FinTech Corp, our pen test found critical SQL injection (CVSS 9.8) in the customer portal two weeks before Black Friday. The CTO wanted to delay patching until January to protect $15M in Q4 revenue. As Security Director, I created an executive brief translating technical risk to business impact: CVSS 9.8 combined with EPSS showed 78% exploit probability within 30 days. I quantified potential impact as $500,000 per hour of downtime plus $2M in PCI-DSS fines. I presented three remediation options with trade-offs: emergency patch, WAF virtual patching, or risk acceptance. I framed the conversation around business continuity, not security compliance. The executives approved WAF deployment within 24 hours and full patch in 5 days. Result: $15M revenue preserved, zero security incidents, and we trained 3 junior team members on the remediation process.",
+    "evaluation": {
+      "overall_score": 5,
+      "star_breakdown": {
+        "situation": 5,
+        "task": 5,
+        "action": 5,
+        "result": 5
+      },
+      "strengths": [
+        {
+          "title": "Quantified Business Impact",
+          "quote": "$500,000 per hour of downtime plus $2M in PCI-DSS fines",
+          "explanation": "Translates technical risk to executive language with specific dollars - critical for CISOs securing budget approvals"
+        },
+        {
+          "title": "Multi-Option Solution Presentation",
+          "quote": "three remediation options with trade-offs",
+          "explanation": "Presents options rather than just problems, showing executive-level decision support skills"
+        },
+        {
+          "title": "Stakeholder-Focused Framing",
+          "quote": "framed the conversation around business continuity, not security compliance",
+          "explanation": "Demonstrates ability to adapt messaging to audience priorities - key for senior security roles"
+        }
+      ],
+      "improvements": [],
+      "red_flags": [],
+      "authenticity_check": {
+        "seems_real": true,
+        "evidence": "Specific timeline (Q3 2023), realistic financial figures ($15M, $500K/hour), technical details (CVSS 9.8, EPSS, PCI-DSS), and concrete outcomes (24h WAF deployment). Too detailed to be fabricated."
+      },
+      "hiring_recommendation": "Strong Hire",
+      "next_steps_for_hr": [
+        "Technical interview: Deep-dive on vulnerability remediation workflows",
+        "Reference check: Verify incident response experience with former colleagues"
+      ],
+      "summary": "Exceptional communication demonstrating ability to translate technical risks into business language while maintaining stakeholder buy-in."
+    }
+  },
+  "leadership": {
+    "skill": "Leadership",
+    "example_answer": "During the Log4j vulnerability crisis in December 2021, our 8-person security team was overwhelmed with remediation requests from 200+ development teams. I immediately convened an emergency war room and implemented a tiered response system. I assigned senior engineers to critical production systems while mentoring 3 junior analysts on non-critical remediation. I established daily standups with department heads and created a centralized tracking dashboard in ServiceNow. To maintain morale during the 3-week crunch, I rotated team members between high-intensity and support tasks, and personally covered weekend shifts. I also advocated for and secured $50K in overtime budget from the CFO. Result: We remediated all critical systems within 72 hours, achieved 95% compliance within 2 weeks, and the team reported highest engagement scores in company history. Two junior analysts were promoted to mid-level roles within 6 months.",
+    "evaluation": {
+      "overall_score": 5,
+      "star_breakdown": {
+        "situation": 5,
+        "task": 5,
+        "action": 5,
+        "result": 5
+      },
+      "strengths": [
+        {
+          "title": "Crisis Team Organization",
+          "quote": "tiered response system, war room, daily standups with department heads",
+          "explanation": "Demonstrates structured incident command under pressure - essential for security leadership"
+        },
+        {
+          "title": "Team Development During Crisis",
+          "quote": "mentoring 3 junior analysts, two junior analysts were promoted to mid-level roles within 6 months",
+          "explanation": "Turns crisis into growth opportunity - shows investment in team development"
+        },
+        {
+          "title": "Resource Acquisition",
+          "quote": "secured $50K in overtime budget from the CFO",
+          "explanation": "Proactively obtains resources for team success - key leadership competency"
+        }
+      ],
+      "improvements": [],
+      "red_flags": [],
+      "authenticity_check": {
+        "seems_real": true,
+        "evidence": "Specific crisis (Log4j December 2021), realistic team size (8 people), concrete metrics (95% compliance in 2 weeks), and measurable outcomes (promotions). Shows authentic crisis leadership experience."
+      },
+      "hiring_recommendation": "Strong Hire",
+      "next_steps_for_hr": [
+        "Technical interview: Discuss incident response framework design",
+        "Leadership interview: Probe team motivation and retention strategies"
+      ],
+      "summary": "Outstanding leadership demonstration showing crisis management, team development, and resource optimization under pressure."
+    }
+  },
+  "decision_making": {
+    "skill": "Decision Making",
+    "example_answer": "At my previous role, we discovered our SIEM was generating 50,000 alerts daily with only 2 analysts - a 2% investigation rate. The CISO wanted to purchase a SOAR platform for $300K annually. Instead of accepting the recommendation, I conducted a 30-day analysis: I categorized all alerts by asset criticality and found only 12 alert types accounted for 80% of true positives. I implemented correlation rules to reduce noise by 60% and created a tiered alerting matrix. For the remaining high-fidelity alerts, I built an automated response playbook using our existing SOAR capabilities (which we weren't using). Total cost: $0 additional spend. Result: Investigation rate improved to 85%, mean-time-to-detect dropped from 24 hours to 4 hours, and we uncovered 2 insider threat cases that would have been missed. The CISO later cited this as a model for data-driven security decisions.",
+    "evaluation": {
+      "overall_score": 5,
+      "star_breakdown": {
+        "situation": 5,
+        "task": 5,
+        "action": 5,
+        "result": 5
+      },
+      "strengths": [
+        {
+          "title": "Data-Driven Analysis Before Decision",
+          "quote": "conducted a 30-day analysis, categorized all alerts by asset criticality",
+          "explanation": "Gathers actual data before recommending solutions - avoids wasteful spending"
+        },
+        {
+          "title": "Creative Problem-Solving with Existing Tools",
+          "quote": "built an automated response playbook using our existing SOAR capabilities",
+          "explanation": "Maximizes existing investment rather than defaulting to new purchases - demonstrates business acumen"
+        },
+        {
+          "title": "Measurable Outcomes",
+          "quote": "Investigation rate improved to 85%, mean-time-to-detect dropped from 24 hours to 4 hours",
+          "explanation": "Quantifies impact with specific metrics - proves ROI of decision"
+        }
+      ],
+      "improvements": [],
+      "red_flags": [],
+      "authenticity_check": {
+        "seems_real": true,
+        "evidence": "Realistic alert volumes (50,000/day), specific timeframes (30-day analysis), concrete metrics (85% investigation rate, 4-hour MTTD), and financial impact ($300K saved). Demonstrates genuine analytical decision-making."
+      },
+      "hiring_recommendation": "Strong Hire",
+      "next_steps_for_hr": [
+        "Technical interview: SIEM architecture and tuning experience",
+        "Scenario exercise: Walk through decision-making process for a new security tool purchase"
+      ],
+      "summary": "Excellent example of data-driven security decision-making that delivered measurable results without additional budget."
+    }
+  },
+  "critical_thinking": {
+    "skill": "Critical Thinking",
+    "example_answer": "Our threat intelligence team reported that APT29 was targeting our industry based on dark web forum chatter. Everyone on the security team wanted immediate blocking of all IPs associated with the group. I pushed back and conducted my own analysis: I cross-referenced the IOCs with our internal logs and found they were 6 months old and already blocked by our perimeter controls. I researched APT29's actual TTPs and discovered they primarily use supply chain attacks, not direct network intrusion. I presented an alternative strategy focusing on third-party vendor access review and code signing certificate monitoring instead of IP blocking. My analysis was initially dismissed by the CISO, but I documented my reasoning and requested a 2-week proof-of-concept. During that period, we identified 3 compromised vendor accounts that would have been missed by IP blocking. The CISO subsequently made threat intelligence analysis mandatory before any blocking decisions.",
+    "evaluation": {
+      "overall_score": 5,
+      "star_breakdown": {
+        "situation": 5,
+        "task": 5,
+        "action": 5,
+        "result": 5
+      },
+      "strengths": [
+        {
+          "title": "Independent Verification Before Action",
+          "quote": "cross-referenced the IOCs with our internal logs and found they were 6 months old",
+          "explanation": "Verifies threat intelligence before reacting - prevents wasted effort on stale IOCs"
+        },
+        {
+          "title": "Adversary-Specific Analysis",
+          "quote": "researched APT29's actual TTPs and discovered they primarily use supply chain attacks",
+          "explanation": "Goes beyond headlines to understand actual attacker methodology - demonstrates analytical depth"
+        },
+        {
+          "title": "Professional Persistence",
+          "quote": "documented my reasoning and requested a 2-week proof-of-concept",
+          "explanation": "Advocates for alternative view with evidence rather than accepting status quo"
+        }
+      ],
+      "improvements": [],
+      "red_flags": [],
+      "authenticity_check": {
+        "seems_real": true,
+        "evidence": "Specific APT group (APT29), realistic threat intel analysis process, documented analytical failure (initial dismissal), and measurable outcome (3 compromised vendor accounts). Shows authentic critical thinking under organizational pressure."
+      },
+      "hiring_recommendation": "Strong Hire",
+      "next_steps_for_hr": [
+        "Technical interview: Threat intelligence analysis methodologies",
+        "Scenario exercise: How would you handle disagreement with leadership on security priorities?"
+      ],
+      "summary": "Demonstrates exceptional critical thinking by challenging consensus, verifying intelligence, and proposing data-backed alternatives."
+    }
+  },
+  "breach_communication": {
+    "skill": "Communication",
+    "example_answer": "At HealthData Corp in January 2024, I discovered unauthorized access affecting 500,000 patient records - our EHR vendor had a compromised API key. As the CISO, I had 72 hours before mandatory HIPAA notification. I immediately activated our incident communications plan with three parallel tracks: (1) Legal & Regulatory: Briefed outside counsel who coordinated with HHS OCR, prepared breach notification documents, and managed state AG expectations. (2) Customer Communications: Worked with marketing to draft clear, non-technical notifications explaining what happened, what data was involved, and what we're doing - avoiding jargon like 'unauthorized API access' and instead saying 'unusual activity detected.' We offered 12 months free identity protection. (3) Internal: Held all-hands call with executives first to align messaging, then department leads, then general staff. Created FAQ documents for customer service and HR to handle inquiries. Result: We met the 72-hour deadline, received praise from HHS for our notification clarity, customer churn was only 2% (industry average is 7%), and we avoided regulatory fines by demonstrating good-faith compliance. Post-incident, we implemented automated breach notification workflows.",
+    "evaluation": {
+      "overall_score": 5,
+      "star_breakdown": {
+        "situation": 5,
+        "task": 5,
+        "action": 5,
+        "result": 5
+      },
+      "strengths": [
+        {
+          "title": "Parallel Multi-Track Communication Strategy",
+          "quote": "three parallel tracks: Legal & Regulatory, Customer Communications, Internal",
+          "explanation": "Simultaneously addresses different stakeholder needs without cross-contaminating messages - demonstrates crisis communications expertise"
+        },
+        {
+          "title": "Audience-Tailored Messaging",
+          "quote": "avoiding jargon like 'unauthorized API access' and instead saying 'unusual activity detected'",
+          "explanation": "Adapts technical reality to audience comprehension - critical for maintaining trust with non-technical stakeholders"
+        },
+        {
+          "title": "Proactive Stakeholder Management",
+          "quote": "Held all-hands call with executives first to align messaging, then department leads",
+          "explanation": "Ensures internal alignment before external communication - prevents mixed messages that damage credibility"
+        },
+        {
+          "title": "Measurable Crisis Outcomes",
+          "quote": "customer churn was only 2% (industry average is 7%), avoided regulatory fines",
+          "explanation": "Quantifies success with benchmarks - proves communication strategy effectiveness"
+        }
+      ],
+      "improvements": [],
+      "red_flags": [],
+      "authenticity_check": {
+        "seems_real": true,
+        "evidence": "Specific scenario (EHR vendor API key), realistic numbers (500K records, 72-hour deadline, 2% vs 7% churn), regulatory context (HIPAA, HHS OCR, state AGs), and concrete outcomes. Very detailed and plausible for healthcare CISO role."
+      },
+      "hiring_recommendation": "Strong Hire",
+      "next_steps_for_hr": [
+        "Technical interview: Discuss incident response framework and breach notification procedures",
+        "Reference check: Verify crisis communication experience with former executive peers"
+      ],
+      "summary": "Exceptional multi-audience breach communication demonstrating ability to coordinate legal, regulatory, customer, and internal communications under tight deadlines while maintaining stakeholder trust."
+    }
+  },
+  "security_dev_conflict": {
+    "skill": "Communication",
+    "example_answer": "Our security team mandated input validation on all API endpoints after discovering multiple injection vulnerabilities. The development team pushed back fiercely - their lead argued that adding validation would delay the Q4 product launch by 3 weeks and cost us our competitive edge. The conflict escalated to the VP level with both sides presenting ultimatums. As Security Lead, I arranged a joint workshop where both teams could voice concerns openly. I asked each side to articulate the other's constraints - Security had to acknowledge launch pressure, Development had to acknowledge the real risk of injection flaws. Together, we mapped the specific data flows where validation was needed and discovered only 20% of endpoints actually handled user input. We proposed a phased approach: immediate validation on the 20% critical paths (estimated 3 days), automated validation framework for remaining 80% post-launch (estimated 1 week), and deployment of a web application firewall as a safety net during transition. I also arranged for the security team to provide round-the-clock support during implementation. Result: Launch delayed by only 5 days (not 3 weeks), all critical injection vectors secured, and Development appreciated that we listened. This collaboration led to establishing a 'Security Champions' program where developers received training and became security advocates. Six months later, security defects in production dropped by 60%.",
+    "evaluation": {
+      "overall_score": 5,
+      "star_breakdown": {
+        "situation": 5,
+        "task": 5,
+        "action": 5,
+        "result": 5
+      },
+      "strengths": [
+        {
+          "title": "Facilitated Conflict Resolution",
+          "quote": "arranged a joint workshop where both teams could voice concerns openly",
+          "explanation": "Creates safe space for dialogue rather than escalating to executive level - demonstrates diplomatic skills"
+        },
+        {
+          "title": "Data-Driven Compromise",
+          "quote": "discovered only 20% of endpoints actually handled user input",
+          "explanation": "Uses analysis to find middle ground rather than all-or-nothing approach - shows pragmatic problem-solving"
+        },
+        {
+          "title": "Phased Implementation Strategy",
+          "quote": "phased approach: immediate validation on critical paths, automated framework post-launch, WAF as safety net",
+          "explanation": "Breaks down large change into digestible parts - reduces resistance while maintaining security"
+        },
+        {
+          "title": "Long-Term Relationship Building",
+          "quote": "Security Champions program where developers received training and became security advocates",
+          "explanation": "Turns conflict into collaboration opportunity - demonstrates lasting organizational impact"
+        }
+      ],
+      "improvements": [],
+      "red_flags": [],
+      "authenticity_check": {
+        "seems_real": true,
+        "evidence": "Realistic DevSecOps conflict (injection vulnerabilities vs launch timeline), specific percentages (20%, 3 weeks vs 5 days), measurable outcomes (60% reduction in defects), and sustainable solution (Security Champions program). Very authentic scenario for any security-development team."
+      },
+      "hiring_recommendation": "Strong Hire",
+      "next_steps_for_hr": [
+        "Technical interview: Discuss secure coding practices and DevSecOps implementation",
+        "Leadership scenario: How would you handle conflict with another department over security requirements?"
+      ],
+      "summary": "Excellent example of cross-functional conflict resolution that achieved security objectives while preserving business relationships and building long-term security culture."
+    }
+  },
+  
+  "communication_adequate": {
+    "skill": "Communication",
+    "example_answer": "In one project, we had a situation where the security team found some vulnerabilities in the application. The development team wanted to ship the product but we needed to address these issues. I had a conversation with the stakeholders about the security findings and explained why it was important to fix them before going live. We worked together to prioritize the vulnerabilities and the dev team agreed to address the critical ones before launch. The product shipped on time with the security issues resolved and we didn't have any problems after release.",
+    "evaluation": {
+      "overall_score": 3,
+      "star_breakdown": {
+        "situation": 3,
+        "task": 3,
+        "action": 3,
+        "result": 3
+      },
+      "strengths": [
+        {
+          "title": "Basic STAR Structure Present",
+          "quote": "I had a conversation with the stakeholders about the security findings",
+          "explanation": "Shows awareness of stakeholder communication process"
+        },
+        {
+          "title": "Collaborative Approach",
+          "quote": "We worked together to prioritize the vulnerabilities",
+          "explanation": "Demonstrates willingness to work with other teams"
+        }
+      ],
+      "improvements": [
+        {
+          "title": "Lacks Specific Context",
+          "suggestion": "What type of vulnerabilities? How many? What was the risk level? Specific details would strengthen the answer."
+        },
+        {
+          "title": "No Quantifiable Metrics",
+          "suggestion": "How long did the conversation take? How many vulnerabilities were there? What would have happened if they weren't fixed?"
+        },
+        {
+          "title": "Heavy 'We' Usage",
+          "suggestion": "What specifically did YOU do? Your role in the conversation should be clearer."
+        }
+      ],
+      "red_flags": [
+        "Generic language: 'some vulnerabilities', 'a situation', 'didn't have any problems' - no specifics",
+        "No tools, technologies, or frameworks mentioned - unverifiable",
+        "No timeline or metrics - suggests this may be a textbook answer rather than real experience"
+      ],
+      "authenticity_check": {
+        "seems_real": false,
+        "evidence": "While the answer follows STAR structure, it lacks any specific details that would allow verification. The phrase 'didn't have any problems' is unrealistic for real security incidents. This could be a prepared template rather than recall of actual experience."
+      },
+      "hiring_recommendation": "Borderline - Would probe for specifics in technical interview",
+      "next_steps_for_hr": [
+        "Technical interview: Ask for specific CVE details or vulnerability types encountered",
+        "Probing question: What would have been the business impact if you hadn't communicated effectively?"
+      ],
+      "summary": "Adequate response with basic STAR structure but lacks the specific details, metrics, and individual contribution clarity needed for senior security roles."
+    }
+  },
+  
+  "communication_weak": {
+    "skill": "Communication",
+    "example_answer": "I think communication is really important in security. One time I had to tell someone about a security issue and they listened to me and we fixed it. I used my communication skills to explain things clearly. It was important to be professional about it. After that everything was fine.",
+    "evaluation": {
+      "overall_score": 2,
+      "star_breakdown": {
+        "situation": 1,
+        "task": 1,
+        "action": 2,
+        "result": 1
+      },
+      "strengths": [
+        {
+          "title": "Acknowledges Importance of Communication",
+          "quote": "I think communication is really important in security",
+          "explanation": "Shows awareness that communication matters for security roles"
+        }
+      ],
+      "improvements": [
+        {
+          "title": "Missing Entire STAR Components",
+          "suggestion": "No specific situation, task, or measurable results. A real example with context is required."
+        },
+        {
+          "title": "No Specific Details",
+          "suggestion": "What was the issue? Who was the stakeholder? What was the outcome? Without these, competency cannot be assessed."
+        },
+        {
+          "title": "Weak Action Statement",
+          "suggestion": "'Explained things clearly' says nothing about HOW you communicated or what made it effective."
+        }
+      ],
+      "red_flags": [
+        "Extremely generic: 'one time', 'someone', 'a security issue' - no verifiable specifics",
+        "No context: What industry? What company size? What was your role?",
+        "No tools or processes mentioned: How did you communicate? Email? Meeting? Documentation?",
+        "Suspiciously vague results: 'everything was fine' - this is not a metric",
+        "Could apply to any role, any industry, any situation - shows no depth",
+        "May indicate a prepared template or hypothetical answer"
+      ],
+      "authenticity_check": {
+        "seems_real": false,
+        "evidence": "This response has all the hallmarks of a prepared template rather than recall of actual experience. The lack of any specific details (no names, roles, technologies, metrics, or outcomes) makes it impossible to verify competence. At senior security levels, candidates should be able to cite specific incidents with measurable results."
+      },
+      "hiring_recommendation": "Do Not Advance - Requires significant development",
+      "next_steps_for_hr": [
+        "This response does not demonstrate competency at any level",
+        "If candidate can provide specific examples in technical interview, may reconsider"
+      ],
+      "summary": "Does not demonstrate communication competency. Response is too generic to assess skill level and lacks any verifiable details."
+    }
+  },
+  
+  "leadership_adequate": {
+    "skill": "Leadership",
+    "example_answer": "Our team was having some challenges with workload and morale after a difficult project. I scheduled one-on-ones with team members to understand what was bothering them. Many people felt overworked and needed more support. I worked with management to address the concerns by adjusting sprint workloads and adding some team-building activities. Over the next few months, the team situation improved and people seemed happier with their work.",
+    "evaluation": {
+      "overall_score": 3,
+      "star_breakdown": {
+        "situation": 3,
+        "task": 3,
+        "action": 3,
+        "result": 2
+      },
+      "strengths": [
+        {
+          "title": "Identified Team Problem",
+          "quote": "I scheduled one-on-ones with team members to understand what was bothering them",
+          "explanation": "Shows initiative to diagnose issues through direct engagement"
+        },
+        {
+          "title": "Root Cause Investigation",
+          "quote": "Many people felt overworked and needed more support",
+          "explanation": "Attempted to understand underlying issues before jumping to solutions"
+        }
+      ],
+      "improvements": [
+        {
+          "title": "Results Too Vague",
+          "suggestion": "'Seemed happier' is not a metric. What was the measurable improvement? Survey scores? Turnover rate? Productivity?"
+        },
+        {
+          "title": "No Specific Leadership Actions",
+          "suggestion": "What specifically did you do as a leader? What processes did you implement? How did you advocate for the team?"
+        },
+        {
+          "title": "Lacks Team Context",
+          "suggestion": "What kind of team? What was the project? What made it 'difficult'? Details matter for credibility."
+        }
+      ],
+      "red_flags": [
+        "Generic problem description: 'challenges with workload and morale' - what specifically?",
+        "No metrics or KPIs mentioned to measure improvement",
+        "Heavy use of 'seemed' and 'appeared' - uncertain outcomes",
+        "What was YOUR specific leadership contribution beyond scheduling meetings?",
+        "Team-building activities are mentioned but not detailed"
+      ],
+      "authenticity_check": {
+        "seems_real": false,
+        "evidence": "While this could be based on real experience, the vagueness ('some challenges', 'seemed happier') suggests it may be generalized from multiple incidents or lacks specific recall. Strong leadership examples include measurable outcomes and specific stakeholder impacts."
+      },
+      "hiring_recommendation": "Borderline - Would ask for specific examples of leadership impact",
+      "next_steps_for_hr": [
+        "Probing question: What specific metrics did you improve?",
+        "Ask for concrete example of advocating for team needs with management"
+      ],
+      "summary": "Adequate leadership attempt with basic empathy and problem identification, but lacks the specific metrics, measurable outcomes, and clear personal contribution needed for senior roles."
+    }
+  },
+  
+  "leadership_weak": {
+    "skill": "Leadership",
+    "example_answer": "I'm a good leader. I lead my team and we do things together. When there are problems I help solve them. My team likes me and I make sure everyone is included. I believe in being fair and making decisions that help the team.",
+    "evaluation": {
+      "overall_score": 1,
+      "star_breakdown": {
+        "situation": 1,
+        "task": 1,
+        "action": 1,
+        "result": 1
+      },
+      "strengths": [],
+      "improvements": [
+        {
+          "title": "No STAR Structure",
+          "suggestion": "A behavioral interview requires a specific example with Situation, Task, Action, and Results. This response has none of these elements."
+        },
+        {
+          "title": "No Actual Leadership Example",
+          "suggestion": "'I'm a good leader' is a claim, not evidence. Real examples are required to assess competency."
+        },
+        {
+          "title": "Cannot Assess Leadership Skills",
+          "suggestion": "Without a specific scenario, no evaluation of leadership ability is possible."
+        }
+      ],
+      "red_flags": [
+        "No specific situation, task, action, or result - entire response is generic claims",
+        "No metrics, timelines, team size, or context of any kind",
+        "'My team likes me' is not a leadership outcome - what did you ACHIEVE together?",
+        "No mention of actual leadership challenges overcome",
+        "Could be describing any manager in any industry - no security context",
+        "This is a self-assessment, not a demonstrated competency"
+      ],
+      "authenticity_check": {
+        "seems_real": false,
+        "evidence": "This response does not provide any specific example that can be evaluated. It reads as a list of desired leadership qualities rather than demonstrated experience. Real leadership examples include specific challenges, actions taken, obstacles overcome, and measurable results achieved with a team."
+      },
+      "hiring_recommendation": "Do Not Advance - Cannot assess competency",
+      "next_steps_for_hr": [
+        "Request specific behavioral example before proceeding",
+        "This response suggests the candidate may not have prepared or may lack relevant experience"
+      ],
+      "summary": "Insufficient for assessment. No specific leadership example provided - cannot evaluate competency level."
+    }
+  }
+}

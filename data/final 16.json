@@ -1,0 +1,214 @@
+{
+  
+  "communication_competency": {
+    "questions": [
+      {
+        "id": "comm_001",
+        "question": "Describe a time when you had to communicate a critical security vulnerability to non-technical executives who wanted to delay patching due to business concerns. How did you approach this conversation?",
+        "competency_measured": "Technical translation, stakeholder management, risk communication",
+        "difficulty": "standard",
+        "expected_star_elements": {
+          "situation": "Context of vulnerability discovery and business pressure",
+          "task": "Responsibility to communicate urgency while respecting business needs",
+          "action": "Communication strategy, language adaptation, risk quantification",
+          "result": "Outcome of decision, business impact, lessons learned"
+        }
+      },
+      {
+        "id": "comm_002",
+        "question": "Tell me about a situation where you had to communicate a data breach to multiple audiences simultaneously. For instance,customers, regulators, and internal stakeholders. Each requiring different messaging. Walk me through your approach.",
+        "competency_measured": "Crisis communication, audience adaptation, regulatory compliance communication",
+        "difficulty": "challenging",
+        "expected_star_elements": {
+          "situation": "Breach discovery and regulatory/customer notification requirements",
+          "task": "Multi-audience communication coordination",
+          "action": "Message tailoring, timing strategy, legal coordination",
+          "result": "Stakeholder response, compliance outcome, relationship impacts"
+        }
+      },
+      {
+        "id": "comm_004",
+        "question": "Describe a time when you had to translate complex threat intelligence into actionable recommendations for different business units with varying technical capabilities.",
+        "competency_measured": "Technical communication, audience analysis, actionable guidance",
+        "difficulty": "standard",
+        "expected_star_elements": {
+          "situation": "Threat intelligence requiring business unit action",
+          "task": "Making intelligence accessible and actionable",
+          "action": "Audience segmentation, message adaptation, guidance development",
+          "result": "Business unit response, security posture improvement"
+        }
+      },
+      {
+        "id": "comm_005",
+        "question": "Tell me about a situation where you had to mediate a conflict between your security team and development team over secure coding practices or security requirements.",
+        "competency_measured": "Conflict resolution, cross-functional collaboration, DevSecOps communication",
+        "difficulty": "challenging",
+        "expected_star_elements": {
+          "situation": "Security-development tension and competing priorities",
+          "task": "Finding mutually acceptable security solution",
+          "action": "Mediation approach, compromise facilitation, relationship building",
+          "result": "Resolution outcome, process improvements, ongoing collaboration"
+        }
+      }
+    ]
+  },
+  
+  "leadership_competency": {
+    "questions": [
+      {
+        "id": "lead_001",
+        "question": "Tell me about a time when you had to rebuild team morale and effectiveness after a significant security breach, particularly one that wasn't caused by your team's failure.",
+        "competency_measured": "Team motivation, morale management, resilience building",
+        "difficulty": "challenging",
+        "expected_star_elements": {
+          "situation": "Post-breach environment and team morale impact",
+          "task": "Restoring team confidence and effectiveness",
+          "action": "Morale-building activities, blame culture avoidance, learning focus",
+          "result": "Team performance recovery, retention, cultural changes"
+        }
+      },
+      {
+        "id": "lead_005",
+        "question": "Describe a situation where you had to build a security conscious culture in an organization that previously had minimal security awareness or resistance to security practices.",
+        "competency_measured": "Culture change, security awareness leadership, organizational influence",
+        "difficulty": "standard",
+        "expected_star_elements": {
+          "situation": "Low security maturity and cultural resistance",
+          "task": "Building security-conscious organizational culture",
+          "action": "Culture change strategy, awareness programs, leadership engagement",
+          "result": "Culture shift indicators, behavior changes, incident reduction"
+        }
+      },
+      {
+        "id": "lead_006",
+        "question": "Give an example of when you had to lead a cross-functional incident response team with members outside your direct authority or organizational control.",
+        "competency_measured": "Matrix leadership, influence without authority, crisis leadership",
+        "difficulty": "challenging",
+        "expected_star_elements": {
+          "situation": "Incident requiring cross-functional coordination",
+          "task": "Leading team without formal authority",
+          "action": "Influence tactics, coordination mechanisms, leadership approach",
+          "result": "Incident resolution, team effectiveness, relationship building"
+        }
+      },
+      {
+        "id": "lead_008",
+        "question": "Describe a situation where you had to address a team member experiencing burnout from constant incident response or on-call duties. How did you identify and handle this?",
+        "competency_measured": "Team wellbeing, burnout prevention, people management",
+        "difficulty": "standard",
+        "expected_star_elements": {
+          "situation": "Recognition of team member burnout",
+          "task": "Addressing wellbeing while maintaining operations",
+          "action": "Intervention approach, workload adjustment, support provision",
+          "result": "Team member recovery, retention, process changes"
+        }
+      }
+    ]
+  },
+  
+  "decision_making_competency": {
+    "questions": [
+      {
+        "id": "dec_001",
+        "question": "Describe a time when you had to decide whether to shut down production systems immediately or accept residual risk during a potential breach or security incident. Walk me through your decision-making process.",
+        "competency_measured": "Risk assessment, business impact analysis, crisis decision-making",
+        "difficulty": "challenging",
+        "expected_star_elements": {
+          "situation": "Security incident and shutdown decision point",
+          "task": "Weighing security risk against business continuity",
+          "action": "Risk analysis, stakeholder consultation, decision criteria",
+          "result": "Decision outcome, business impact, retrospective analysis"
+        }
+      },
+      {
+        "id": "dec_004",
+        "question": "Describe a time when you had to decide whether to publicly disclose a vulnerability or handle it through coordinated disclosure. What factors influenced your decision?",
+        "competency_measured": "Ethical decision-making, vulnerability disclosure ethics, stakeholder consideration",
+        "difficulty": "challenging",
+        "expected_star_elements": {
+          "situation": "Vulnerability discovery and disclosure decision",
+          "task": "Balancing transparency, responsibility, and risk",
+          "action": "Stakeholder analysis, ethical framework application, disclosure strategy",
+          "result": "Disclosure outcome, stakeholder response, vulnerability resolution"
+        }
+      },
+      {
+        "id": "dec_005",
+        "question": "Tell me about a situation where you had to balance security requirements with business velocity in a critical product launch or business initiative.",
+        "competency_measured": "Security-business balance, risk acceptance, stakeholder negotiation",
+        "difficulty": "standard",
+        "expected_star_elements": {
+          "situation": "Launch pressure vs. security requirements",
+          "task": "Finding acceptable security-speed balance",
+          "action": "Risk assessment, compensating controls, negotiation",
+          "result": "Launch outcome, security posture, relationship impacts"
+        }
+      },
+      {
+        "id": "dec_008",
+        "question": "Tell me about a situation where you had to prioritize which vulnerabilities to remediate first when facing thousands of findings with limited remediation resources.",
+        "competency_measured": "Risk prioritization, vulnerability management, resource optimization",
+        "difficulty": "standard",
+        "expected_star_elements": {
+          "situation": "Large vulnerability backlog and limited resources",
+          "task": "Creating effective prioritization approach",
+          "action": "Risk scoring, business context integration, remediation planning",
+          "result": "Risk reduction, resource efficiency, process improvement"
+        }
+      }
+    ]
+  },
+  
+  "critical_thinking_competency": {
+    "questions": [
+      {
+        "id": "crit_001",
+        "question": "Tell me about a time when you identified a systemic security flaw or weakness that others, including auditors, had consistently missed. How did you discover it and what made you look deeper?",
+        "competency_measured": "Pattern recognition, deep analysis, systemic thinking",
+        "difficulty": "challenging",
+        "expected_star_elements": {
+          "situation": "Recurring issue or audit blind spot",
+          "task": "Uncovering root cause others missed",
+          "action": "Analysis approach, investigation methods, validation",
+          "result": "Flaw discovery, remediation, audit process improvement"
+        }
+      },
+      {
+        "id": "crit_004",
+        "question": "Tell me about a time when you had to investigate anomalies that initially appeared to be false positives but turned out to be indicators of a sophisticated attack or APT.",
+        "competency_measured": "Investigative persistence, signal vs. noise differentiation, advanced threat detection",
+        "difficulty": "challenging",
+        "expected_star_elements": {
+          "situation": "Anomalous activity amid normal noise",
+          "task": "Distinguishing true threat from false positive",
+          "action": "Investigation approach, hypothesis testing, escalation decision",
+          "result": "Threat identification, incident response, detection tuning"
+        }
+      },
+      {
+        "id": "crit_008",
+        "question": "Describe a situation where you redesigned a security process after realizing it was creating security theater, giving appearance of security without actual effectiveness.",
+        "competency_measured": "Effectiveness evaluation, security theater recognition, meaningful improvement",
+        "difficulty": "standard",
+        "expected_star_elements": {
+          "situation": "Ineffective security control or process",
+          "task": "Creating genuinely effective security",
+          "action": "Effectiveness analysis, redesign approach, validation",
+          "result": "Real security improvement, resource optimization, stakeholder education"
+        }
+      },
+      {
+        "id": "crit_009",
+        "question": "Give an example of when you used data analysis or metrics to identify previously unrecognized gaps in your organization's security posture.",
+        "competency_measured": "Data-driven decision making, metrics analysis, gap identification",
+        "difficulty": "standard",
+        "expected_star_elements": {
+          "situation": "Security metrics program or data availability",
+          "task": "Identifying non-obvious security gaps",
+          "action": "Analysis methodology, pattern identification, gap validation",
+          "result": "Gap remediation, metric program improvement, risk reduction"
+        }
+      }
+    ]
+  }
+  }
