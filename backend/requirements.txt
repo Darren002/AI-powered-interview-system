@@ -1,0 +1,25 @@
+# CyberHire AI - Backend Dependencies
+# Install all with: pip install -r requirements.txt
+
+# Web Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+gunicorn==21.2.0
+
+# Database
+sqlalchemy==2.0.25
+
+# HTTP & APIs
+requests==2.31.0
+
+# Environment
+python-dotenv==1.0.0
+
+# Data Processing
+pydantic==2.5.3
+
+# LLM Integration (Groq)
+groq==0.4.0
+
+# Utilities
+python-dateutil==2.8.2
