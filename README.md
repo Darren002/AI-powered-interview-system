@@ -27,8 +27,6 @@ venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
 
-**API key is already provided** in `backend/.env` - no setup needed.
-
 If you need to use your own key, edit `backend/.env`:
 ```
 GROQ_API_KEY=your_api_key_here
